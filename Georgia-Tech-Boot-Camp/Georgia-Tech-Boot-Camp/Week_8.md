@@ -2,14 +2,14 @@
 
 ### Phase 1
 
-Determined IP ranges by visiting the following website: https://www.ipaddressguide.com/cidr
-        * 15.199.95.91/28 = 15.199.95.80 - 15.199.95.95
-        * 15.199.94.91/28 = 15.199.94.80 - 15.199.94.95
-        * 11.199.158.91/28 = 11.199.158.80 - 11.199.158.95
-        * 167.172.144.11/32 = 167.172.144.11- 167.172.144.11
-        * 11.199.141.91/28 = 11.199.141.80 - 11.199.141.95
+1. Determined IP ranges by visiting the following website: https://www.ipaddressguide.com/cidr
+       * 15.199.95.91/28 = 15.199.95.80 - 15.199.95.95
+       * 15.199.94.91/28 = 15.199.94.80 - 15.199.94.95
+       * 11.199.158.91/28 = 11.199.158.80 - 11.199.158.95
+       * 167.172.144.11/32 = 167.172.144.11- 167.172.144.11
+       * 11.199.141.91/28 = 11.199.141.80 - 11.199.141.95
 
-Ran fping against the IP ranges using the following commands:
+2. Ran fping against the IP ranges using the following commands:
         fping -g  15.199.95.80 15.199.95.95
         All are unreachable.
         fping -g 15.199.94.80 15.199.94.95
