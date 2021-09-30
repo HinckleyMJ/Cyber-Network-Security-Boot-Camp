@@ -29,7 +29,7 @@ OSI: Pings occur at the network layer.
 
 ### Phase 2
 
-1. Ran the following command to run Nmap: sudo nmap -sS 167.172.144.11
+Ran the following command to run Nmap: sudo nmap -sS 167.172.144.11
 
 Results:
 
