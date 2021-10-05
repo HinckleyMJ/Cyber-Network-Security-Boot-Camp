@@ -26,7 +26,7 @@ Icecast Header Overwrite: exploit/windows/http/icecast_header
 **Vulnerability Explanation:**
 This is a buffer overflow attack which allows the attacker to execute code when too much data is entered into the header of icecast versions 2.0.1 and earlier.  Specifically, 32 HTTP headers must be sent to the remote host in order to overwrite saved instructions.  This vulnerability is exploited with the help of ExitThread to make icecast think the thread is still in use.
 
-**Severity:*
+**Severity:**
 This vulnerability is critical.  An attacker could access everything on the CEO’s machine including the system information.  Therefore, this vulnerability could have been exploited for reconnaissance purposes to gather information to perform a future attack.  Additionally, an attacker potentially could have found banking information for the CEO or the company, they could have accessed sensitive documents pertaining to the CEO which could have led to the theft of his identity, or the attacker may have uncovered proprietary information about their products which the company would not want in the hands of their competitors.  As the attacker had full access to the CEO’s machine, the possibilities are endless when it comes to the damage the attacker could cause.
 
 **Proof of Concept:**
