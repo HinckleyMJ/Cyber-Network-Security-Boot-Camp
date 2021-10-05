@@ -11,15 +11,15 @@
 
 2. Ran fping against the IP ranges using the following commands:
    - fping -g  15.199.95.80 15.199.95.95
-        All are unreachable.
+     - All are unreachable.
    - fping -g 15.199.94.80 15.199.94.95
-        All are unreachable.
+     - All are unreachable.
    - fping -g 11.199.158.80 11.199.158.95
-        All are unreachable.
+     - All are unreachable.
    - fping -g 167.172.144.11 167.172.144.11
-        167.172.144.11 is alive.
+     - 167.172.144.11 is alive.
    - fping -g 11.199.141.80 11.199.141.95
-        All are unreachable.
+     - All are unreachable.
 
 Findings: All of RockStar Corp’s Hollywood IP addresses are unreachable EXCEPT 167.172.144.11.  This IP address poses a potential vulnerability to RockStar Corp. as it is responding and the company does not want their IP addresses to respond to any requests.
 
