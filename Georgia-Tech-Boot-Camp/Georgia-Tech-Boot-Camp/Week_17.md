@@ -30,9 +30,11 @@ This is a buffer overflow attack which allows the attacker to execute code when 
 This vulnerability is critical.  An attacker could access everything on the CEO’s machine including the system information.  Therefore, this vulnerability could have been exploited for reconnaissance purposes to gather information to perform a future attack.  Additionally, an attacker potentially could have found banking information for the CEO or the company, they could have accessed sensitive documents pertaining to the CEO which could have led to the theft of his identity, or the attacker may have uncovered proprietary information about their products which the company would not want in the hands of their competitors.  As the attacker had full access to the CEO’s machine, the possibilities are endless when it comes to the damage the attacker could cause.
 
 **Proof of Concept:**
-1. Ran nmap on the IP address to perform a service and version scan: nmap -sV 192.168.0.20
+1. Ran nmap on the IP address to perform a service and version scan: 
+   - nmap -sV 192.168.0.20
 
-2. Found the Icecast service was running so I used SearchSploit to search for exploits: searchsploit icecast
+2. Found the Icecast service was running so I used SearchSploit to search for exploits: 
+   - searchsploit icecast
 
 3. Set up the exploit using Metasploit:
    - search icecast
