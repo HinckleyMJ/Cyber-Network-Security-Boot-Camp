@@ -62,6 +62,7 @@ This vulnerability is critical.  An attacker could access everything on the CEOâ
 7. Opened a Meterpreter shell and determined system information:
    - shell
    - systeminfo
+     
      ![systeminfo1](Images/Week_17/systeminfo1.png)
      ![systeminfo2](Images/Week_17/systeminfo2.png)
 
