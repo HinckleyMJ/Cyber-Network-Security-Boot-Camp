@@ -44,18 +44,20 @@ This vulnerability is critical.  An attacker could access everything on the CEO�
 
 4. Found files:
    - Found secretfile.txt : search -f *secret*
-      ![secretfile](Images/Week_17/secretfile.png)
+     ![secretfile](Images/Week_17/secretfile.png)
    - Found recipe.txt: search -f *recipe*
-      ![recipe](Images/Week_17/recipe.png)
+     ![recipe](Images/Week_17/recipe.png)
 
-5. Used Meterpreter’s local exploit searcher to determine additional exploits: run post/multi/recon/local_exploit_suggester
-  - Discovered the following exploits:
-    - exploit/windows/local/ikeext_service
-    - exploit/windows/local/ms16_075_relection
-      ![local_exploit_suggester](Images/Week_17/local_exploit_suggester.png)
+5. Used Meterpreter’s local exploit searcher to determine additional exploits: 
+   - run post/multi/recon/local_exploit_suggester
+     - Discovered the following exploits:
+       - exploit/windows/local/ikeext_service
+       - exploit/windows/local/ms16_075_relection
+         ![local_exploit_suggester](Images/Week_17/local_exploit_suggester.png)
 
-6. Enumerated all logged on users: run post/windows/gather/enum_logged_on_users
-![enum_logged_on_users](Images/Week_17/enum_logged_on_users.png)
+6. Enumerated all logged on users: 
+   - run post/windows/gather/enum_logged_on_users
+     ![enum_logged_on_users](Images/Week_17/enum_logged_on_users.png)
 
 7. Opened a Meterpreter shell and determined system information:
    - shell
